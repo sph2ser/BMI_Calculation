@@ -25,6 +25,6 @@ if st.button("Calculate Body Mass Index (BMI)"):
             category="Overweight"
         else:
             category="Obese"
-        st.success(f"{name},your BMI is{bmi:.2F} which is considered {category}")
+        st.success(f"{name},your BMI is {bmi:.2F} which is considered {category}")
     else:
         st.error("Please enter the valid height")
